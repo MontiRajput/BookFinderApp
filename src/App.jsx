@@ -1,5 +1,4 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Bookfinder from "./components/Bookfinder";
 import MyContext from "./MyContext";
 import BookDetails from "./components/BookDetails";
@@ -10,7 +9,7 @@ function App() {
   const [bookTitle, setbookTitle] = useState("");
   const [data, setData] = useState(mydata);
   const [currBook, setCurrBook] = useState({});
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const providerValues = {
     bookTitle,
     setbookTitle,
