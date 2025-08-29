@@ -1,0 +1,59 @@
+/* booksearch */
+input {
+  all: unset;
+  width: 95%;
+  height: 30px;
+}
+.input {
+  all: unset;
+  background-color: rgba(255, 255, 255, 0.742);
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.831);
+  border-radius: 10px;
+  width: 700px;
+  height: 30px;
+  font-size: 15px;
+}
+select {
+  background-color: rgba(255, 255, 255, 0.742);
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.831);
+}
+
+.fa-paper-plane {
+  font-size: 20px;
+  cursor: pointer;
+}
+/* bookcard */
+.title {
+  white-space: nowrap; /* Keep text in one line */
+  overflow: hidden; /* Hide extra text */
+  text-overflow: ellipsis; /* Add ... */
+  width: 200px; /* Must give a width */
+  letter-spacing: 0 !important;
+}
+.card {
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.208);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: ease-in-out 300ms;
+}
+.card:hover {
+  transform: scale(1.07);
+}
+.background {
+  background-color: rgba(0, 0, 0, 0.393);
+}
+
+@media screen and (max-width: 768px) {
+  .input {
+    width: 90%;
+    height: 25px;
+  }
+  select {
+    right: 0;
+  }
+}
