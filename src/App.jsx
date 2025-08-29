@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Bookfinder from "./components/bookfinder";
+import Bookfinder from "./components/Bookfinder";
 import MyContext from "./MyContext";
 import BookDetails from "./components/BookDetails";
 import mydata from "./assets/mydata";
