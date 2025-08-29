@@ -51,8 +51,8 @@ BookFinder/
 
 Clone the repository
 
-git clone https://github.com/MontiRajput/book-finder.git
-cd book-finder
+git clone https://github.com/MontiRajput/BookFinderApp.git
+cd BookFinderApp
 
 Install dependencies
 
@@ -62,30 +62,4 @@ Run the development server
 
 npm run dev
 
-Open in browser 👉 http://localhost:5173
-
-📸 Screenshots
-
-(Add screenshots of your UI here – Search Page, Book Details Page, etc.)
-
-🔮 Future Improvements
-
-Add Pagination for large search results
-
-Implement Favorites / Save for later
-
-Show Book Description & Ratings
-
-Dark mode toggle 🌙
-
-🤝 Contributing
-
-Pull requests are welcome! If you’d like to contribute:
-
-Fork this repo
-
-Create a new branch (git checkout -b feature-name)
-
-Commit your changes (git commit -m 'Add feature')
-
-Push and open a Pull Request
+Open in browser 👉 https://book-finder-app-6xst.vercel.app/
